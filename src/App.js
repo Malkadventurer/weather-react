@@ -1,4 +1,3 @@
-import logo from "./img/logo.svg";
 import "./App.css";
 
 export default function App() {
