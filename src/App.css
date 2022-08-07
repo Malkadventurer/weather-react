@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 20px auto;
+  width: 30rem;
+  background: linear-gradient(rgb(227, 250, 255), rgb(62, 185, 237));
+  border-radius: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
   color: white;
+  text-shadow: 3px 3px #a9d3eccf;
+  padding: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+.weather-border {
+  margin: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+.date {
+  font-size: 1.3rem;
+}
+.city {
+  font-size: 2.3rem;
+  font-weight: normal;
+}
+.temperature {
+  font-size: 4rem;
+  font-weight: normal;
+}
+.celsius {
+  display: flex;
+  float: right;
+  font-size: 1rem;
+}
+.info-columns {
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.description-column {
+  text-shadow: none;
+}
+.description {
+  font-weight: bold;
+}
+ul {
+  list-style: none;
 }

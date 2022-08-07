@@ -1,0 +1,24 @@
+#search-button {
+  color: #ffffff;
+  border-color: #2d98f6;
+  background-color: #2d98f6;
+  transition: all 200ms ease-in-out;
+  margin-right: 10px;
+}
+#search-button:hover {
+  color: #ffffff;
+  border-color: #0b5ed7;
+  background: #0b5ed7;
+}
+#current {
+  color: #ffffff;
+  border-color: #2d98f6;
+  background-color: #2d98f6;
+  transition: all 200ms ease-in-out;
+}
+#current:hover {
+  color: #ffffff;
+  border-color: #2d98f6;
+  background-color: #2d98f6;
+  transition: all 200ms ease-in-out;
+}
