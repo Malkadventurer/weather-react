@@ -5,7 +5,7 @@ export default function Source() {
   return (
     <small className="source">
       <a
-        href="https://github.com/Malkadventurer/starter-weather-app"
+        href="https://github.com/Malkadventurer/weather-react"
         className="nav-link"
         target="_blank"
         id="github"
